@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <title>Partículas Roxas</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    #particles-js {
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+    
+    <div class="container">
+         <h1>Gerador-De-Codigo</h1> <!-- Add this line for the title -->
+<input id="generatedCode" rows="4" cols="50" readonly></input>
+<button onclick="generateCode()" id="generateButton">Gerar Código</button>
+<button onclick="copyCode()">Copiar Código</button>
+<button onclick="goToPage()">Ir para Outra Página</button>
+
+      </div>
+
+<div id="particles-js"></div>
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="parts.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
